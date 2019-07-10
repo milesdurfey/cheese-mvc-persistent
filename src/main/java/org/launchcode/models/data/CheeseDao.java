@@ -6,10 +6,10 @@ import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
 
-/**
- * Created by LaunchCode
- */
+//DAO stands for Data Access Object
+
 @Repository
 @Transactional
 public interface CheeseDao extends CrudRepository<Cheese, Integer> {
+
 }
